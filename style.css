@@ -226,7 +226,7 @@ a{
 
 /* RESPONSIVE */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
     #content__services {
         width: 89%;
     }
