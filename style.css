@@ -114,9 +114,7 @@ h2 > p{
     display: flex;
     align-items: flex-end;
 }
-.content__img {
-    margin-left: 0;
-}
+
 .content__access {
     display: flex;
     flex-direction: column;
@@ -215,10 +213,9 @@ a{
     color: hsl(0, 1%, 34%);
     font-size: 12px;
 }
+
 @media only screen and (min-width: 1440px) {
-    .content__img img {
-        width: 48%;
-    }
+
     #content__services {
         display: flex;
         flex-direction: row;
@@ -228,6 +225,7 @@ a{
 
 
 /* RESPONSIVE */
+
 @media only screen and (min-width: 1200px) {
     #content__services {
         width: 89%;
@@ -238,7 +236,7 @@ a{
     }
 
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
     #content__services {
         flex-direction: row;
         width: 99%;
@@ -297,6 +295,8 @@ a{
         flex-flow: row wrap;
     }
 }
+
+
 @media only screen and (min-width: 375px) {
 
     .head__buttons {
